@@ -1,0 +1,272 @@
+body,h3{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rethink Sans', sans-serif;
+}
+
+body::-webkit-scrollbar
+{
+    display: none;
+}
+
+.banner{
+    width: 100%;
+    height: 570px;
+    background-image: linear-gradient(rgb(71 62 58 / 43%),rgb(0 0 0 / 75%)),url(/images/index_image.jpg);
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    padding-left: 60%;
+}
+.bxbxs-user-circle{
+    background-color: aliceblue;
+}
+
+.profile{
+    height: 20px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: large;
+    text-decoration: none;
+}
+
+h3{
+    padding:20px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.logo{
+    color: white;
+    display: flex;
+    padding-top: 10% ;
+    flex-direction: column;
+    align-items: center;
+}
+.name{
+    font-size: 90px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0px
+}
+
+.logo-bottom{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    width: 70%;
+    text-align: center;
+}
+.inside{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+
+.location-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.location-top{
+    padding: 20px;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 5px;
+    margin-top: -10px;
+    
+}
+
+#india{
+    align-items: center;
+    margin: -4px;
+    border-radius: 6px;
+}
+
+.location-para{
+    width: 63.6%;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -30px;
+    color: gray;
+}
+
+.locations{
+    height: 50%;
+    width: 100%;
+    align-items: center;
+    padding-top: 70px;
+    flex-wrap: nowrap;
+}
+
+.locations-in-box{
+    width: 90%;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box{
+    border: 1px solid rgb(222, 219, 219);
+    font-size: 20px;
+    width: 30%;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10px;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 1px rgb(222, 219, 219);
+}
+
+.box:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 15px 1px rgb(222, 219, 219);
+}
+
+.places{
+    margin: 0px;
+    padding: 20px;
+    font-weight:400px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.arrow{
+    margin: 20px;
+    font-weight: lighter;
+    border-radius: 360px;
+    padding-left: 9px;
+    padding-right: 8px;
+    
+}
+
+.part_3{
+    width: 100%;
+    margin-top: 50px;
+    padding: 0px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+}
+
+.part_3_content1{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+.trade-name{
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0px;
+    padding-top: 50px;
+}
+
+.trade-mark{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.select-box{
+    width: 260px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding-top: 50px;
+    justify-content: space-between;
+   
+}
+
+.drop-box{
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.part_4{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.About{
+    padding: 0px;
+    margin: 0px;
+    width: 18%;
+
+}
+
+.down{
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: 3px;
+    font-weight: 1;
+    font-size: medium;
+}
+
+.list{
+    list-style: none;
+    padding: 0px;
+    line-height: 160%;
+}
+
+.text{
+    color: gray;
+    font-size: 15px
+}
+
+.social_media{
+    margin-top: 15px;
+}
+
+.social_media:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+
+.download{
+    display: flex;
+    flex-direction: column;
+}
+
+.app{
+    margin-top: 20px;
+}
+
+.app:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+hr{
+    border: 0.5px solid #cfcccc;
+    width: 100%;
+}
+
+.last{
+    color: gray;
+    font-size: small;
+}
+
+
+
+
+
+
